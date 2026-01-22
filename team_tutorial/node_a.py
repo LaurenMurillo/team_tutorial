@@ -12,7 +12,7 @@ class NodeA(Node):
 
     def timer_callback(self):
         msg = String()
-        msg.data = 'Hello from Node A'
+        msg.data = 'Hello from Avaneesh'
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing: {msg.data}')
 
